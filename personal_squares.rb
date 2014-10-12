@@ -41,3 +41,5 @@ class PersonalSquares
   end
 
 end
+
+PersonalSquares.new(Date.new(2014, 10, 12))
