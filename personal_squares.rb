@@ -37,7 +37,7 @@ class PersonalSquares
         commit(@date)
       end
       @date += 1
-      break if @date = Date.today - 181
+      break if @date == Date.today - 181
     end
   end
 
