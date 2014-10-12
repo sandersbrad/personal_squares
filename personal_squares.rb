@@ -37,12 +37,10 @@ class PersonalSquares
         commit(@date)
       end
       @date += 1
+      break if @date = Date.today - 181
     end
   end
 
 end
 
-# PersonalSquares.new(Date.new(2014, 10, 12))
-
-File.open('personalize.txt', 'a') { |file| file << "text" }
-system("git add -A; git commit -m 'personal squares!' --date '#{Date.today - 345}'")
+PersonalSquares.new(Date.new(2014, 10, 12))
