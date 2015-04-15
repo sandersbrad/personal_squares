@@ -44,6 +44,7 @@ class PersonalSquares
 end
 
 # PersonalSquares.new(Date.new(2014, 10, 12))
-
-File.open('personalize.txt', 'a') { |file| file << "Let's play personal squares!\n" }
-system("git add -A; git commit -m 'personal squares!' --date '#{Date.today - 180}'")
+7.times do
+  File.open('personalize.txt', 'a') { |file| file << "Let's play personal squares!\n" }
+  system("git add -A; git commit -m 'personal squares!' --date '#{Date.today - 180}'")
+end
