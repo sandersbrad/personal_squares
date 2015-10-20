@@ -8,3 +8,4 @@
 * `#'s` are dark green, `*'s` are green, and `-'s` are light green.
 * Change the date in the constructor call to the date of the first Monday in your current commit history
 * Uncomment the last line and run personal_squares.rb from the terminal
+* Push your new commits to git
